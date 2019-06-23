@@ -1,0 +1,66 @@
+.box {
+    position: relative;
+    width : 300px;
+    height : 300px;
+    border : 1px solid #FF3366;
+    background: url(img/img0.jpg) no-repeat center;
+    background-size: 300px 300px;
+    
+}
+span{
+    display: inline-block;
+    position: absolute;
+    width :98px;
+    height :98px;
+    background-size: 100% 100%;
+    /* visibility: hidden; */
+    visibility: visible;
+    border : 1px solid #FF3366;
+    z-index: 99;
+}
+.img1{
+    top : 0;
+    left : 0; 
+    background: url(img/img16.jpg)  no-repeat -55px -25px;
+}
+.img2{
+   top : 100px;
+   left : 0px;
+   background: url(img/img16.jpg)  no-repeat -55px -145px;
+}
+.img3{
+   top : 200px;
+   left :0px;
+   background: url(img/img16.jpg)  no-repeat -55px -275px;
+}
+.img4{
+    top : 0;
+    left : 100px;
+    background: url(img/img16.jpg)  no-repeat -200px -25px;
+}
+.img5{
+   top : 100px;
+   left :100px;
+   background: url(img/img16.jpg)  no-repeat -200px -145px;
+}
+.img6{
+   top : 200px;
+   left :100px;
+   background: url(img/img16.jpg)  no-repeat -200px -275px;
+}
+.img7{
+    top : 0;
+    left : 200px;
+    background: url(img/img16.jpg)  no-repeat -345px -25px;
+}
+.img8{
+   top : 100px;
+   left :200px;
+   background: url(img/img16.jpg)  no-repeat -345px -145px;
+}
+.img9{
+   top : 200px;
+   left :200px;
+   background: url(img/img16.jpg)  no-repeat -345px -275px;
+}
+
